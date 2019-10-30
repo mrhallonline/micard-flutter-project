@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Kevin Hall',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -27,9 +28,14 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'STEM Specialist',
-                style: TextStyle(
-                  color: Colors.white,
+                  style: TextStyle(
+                    fontSize: 20.0,
+                    letterSpacing: 2.0,
+                    fontFamily:'Source_Sans_Pro',
+                    fontWeight: FontWeight.bold,
+                    color: Colors.teal[100],
                 ),
+                
               ),
             
             ],
