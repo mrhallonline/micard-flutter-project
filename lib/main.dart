@@ -65,11 +65,11 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   leading: Icon(
-                    Icons.email,
+                    Icons.web,
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'hi@kevinhall.info',
+                    'www.kevinhall.info',
                     style: TextStyle(
                         color: Colors.teal[900],
                         fontFamily: 'Source_Sans_Pro',
